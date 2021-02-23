@@ -17,7 +17,17 @@ namespace GameProject
                 IdentityNumber = 22567312266,
                 DateOfBirth = new DateTime(1997,6,11)
             };
+
+            Gamer gamer2 = new Gamer
+            {
+                Id = 4,
+                FirstName = "ABDURRAHMAN YASİN",
+                LastName = "TAŞ",
+                IdentityNumber = 36644051368,
+                DateOfBirth = new DateTime(1995,8,26)
+            };
             gamerManager.Add(gamer);
+
 
             CampaignRateManager campaignRateManager = new CampaignRateManager();
             Campaign campaign = new Campaign
